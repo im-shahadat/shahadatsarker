@@ -8,6 +8,7 @@
   upwork: "https://www.upwork.com/freelancers/~011cbdfb1f9efc56cc",
   github: "https://github.com/im-shahadat",
   linkedin: "https://www.linkedin.com/in/shahadat-sarker-09a746362/",
+  facebook: "https://www.facebook.com/im.shahadat",
 };
 
 export const skills = [

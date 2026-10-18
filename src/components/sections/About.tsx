@@ -1,8 +1,9 @@
 ﻿import Link from "next/link";
 
+export const expertise = ["NextJS", "LangChain", "LangGrahp", "LangSmith",
+  "AWS", "Django", "FAST API", "Laravel","PHP"];
+
 export default function About() {
-  const expertise = ["NextJS","LangChain", "LangGrahp","LangSmith",
-"AWS", "Django","FAST API","PHP", "Laravel"];
   return (
     <section id="about" style={{paddingTop: "5rem", paddingBottom: "5rem"}}>
       <div className="site-container">
