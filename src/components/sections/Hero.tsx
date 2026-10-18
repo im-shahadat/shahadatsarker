@@ -14,7 +14,8 @@ export default function Hero() {
           Photo
         </div>
         <h1 style={{fontSize: "clamp(2.25rem, 5vw, 4.5rem)", fontWeight: 700, color: "#fff", lineHeight: 1.1, maxWidth: "56rem", marginBottom: "1.5rem"}}>
-          Shahadat builds woocommerce stores, full-stack apps, and fast web solutions.
+         <center>Hi! I'm Shahadat Sarker</center>
+        
         </h1>
         <p style={{color: "rgba(255,255,255,0.5)", fontSize: "0.875rem", marginBottom: "0.4rem"}}>Freelance Developer / WordPress / Full-Stack</p>
         <p style={{color: "rgba(255,255,255,0.3)", fontSize: "0.875rem", marginBottom: "2.5rem"}}>Bangladesh</p>

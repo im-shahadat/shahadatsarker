@@ -3,11 +3,11 @@
   title: "Full-Stack Software Enginee",
   tagline: "I build fast, scalable web solutions from WooCommerce stores to modern full-stack apps.",
   location: "Bangladesh",
-  email: "hello@shahadatsarker.com",
-  fiverr: "https://fiverr.com/yourusername",
-  upwork: "https://upwork.com/freelancers/yourusername",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
+  email: "mailto:shahadtsarkerofficial@gmail.com",
+  fiverr: "https://www.fiverr.com/sellers/shah_wired",
+  upwork: "https://www.upwork.com/freelancers/~011cbdfb1f9efc56cc",
+  github: "https://github.com/im-shahadat",
+  linkedin: "https://www.linkedin.com/in/shahadat-sarker-09a746362/",
 };
 
 export const skills = [
