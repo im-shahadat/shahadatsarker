@@ -14,16 +14,28 @@ export default function Hero() {
     <section style={{minHeight:"60vh",paddingTop:"1rem",paddingBottom:"1rem",display:"flex",flexDirection:"column",justifyContent:"center"}}>
       <div className="site-container">
         
-        <h1 style={{fontSize:"clamp(2rem,5vw,4.5rem)",fontWeight:700,color:"#fff",lineHeight:1.1,maxWidth:"56rem",marginBottom:"1.25rem"}}>
+        <h1
+  style={{
+    fontSize: "clamp(2rem, 5vw, 4.5rem)",
+    fontWeight: 700,
+    color: "#fff",
+    lineHeight: 1.3, // Increased from 1.1 to fix vertical text clipping
+    maxWidth: "56rem",
+    marginBottom: "1.25rem",
+    marginTop: "0.5rem",
+    paddingTop: "4rem" ,
+    // Added slight margin top to prevent overlap with navbar
+  }}
+>
           Hi! I'm Shahadat Sarker.
         </h1>
         
-          <p style={{color:"rgba(255,255,255,0.5)",fontSize:"1rem",marginBottom:"0.4rem"}}> Full-Stack Software Engineer <br></br>AI Engineer</p>
+          <p style={{color:"rgba(255,255,255,0.5)",fontSize:"1rem",marginBottom:"0.4rem",}}> Full-Stack Software Engineer <br></br>AI Engineer</p>
          
         
         <div style={{display:"flex",flexWrap:"wrap",gap:"1.25rem"}}>
           {links.map((link) => (
-            <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer" style={{color:"rgba(255,255,255,0.5)",fontSize:"0.875rem",textDecoration:"underline",textUnderlineOffset:"4px"}}>
+            <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer" style={{color:"rgba(255,255,255,0.5)",fontSize:"1rem",textDecoration:"underline",textUnderlineOffset:"4px"}}>
               {link.label}
             </a>
           ))}
@@ -32,7 +44,7 @@ export default function Hero() {
           Photo
         </div></center>
         
-            <div style={{display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "2rem"}}>
+            <div style={{display: "flex", flexWrap: "wrap", gap: "0.5rem",marginTop:"3rem", marginBottom: "2rem",justifyContent: "center"}}>
               {expertise.map((item) => (
                 <span key={item} style={{fontSize: "0.75rem", border: "1px solid rgba(255,255,255,0.15)", color: "rgba(255,255,255,0.6)", padding: "0.25rem 0.75rem", borderRadius: "9999px"}}>
                   {item}

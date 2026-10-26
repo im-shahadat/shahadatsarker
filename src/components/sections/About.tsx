@@ -5,7 +5,7 @@ export const expertise = ["NextJS", "LangChain", "LangGrahp", "LangSmith",
 
 export default function About() {
   return (
-    <section id="about" style={{paddingTop: "5rem", paddingBottom: "5rem"}}>
+    <section id="about" style={{paddingTop: "1rem", paddingBottom: "5rem"}}>
       <div className="site-container">
         <hr style={{borderColor: "rgba(255,255,255,0.1)", marginBottom: "3rem"}} />
         <div className="grid-sidebar">

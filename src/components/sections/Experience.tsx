@@ -2,7 +2,7 @@
 
 export default function Experience() {
   return (
-    <section id="experience" style={{paddingTop: "5rem", paddingBottom: "5rem"}}>
+    <section id="experience" style={{paddingTop: "1rem", paddingBottom: "5rem"}}>
       <div className="site-container">
         <hr style={{borderColor: "rgba(255,255,255,0.1)", marginBottom: "3rem"}} />
         <div className="grid-sidebar">
